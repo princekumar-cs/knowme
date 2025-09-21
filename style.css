@@ -126,6 +126,7 @@ footer { background: #0a2540; color: white; padding: 20px; text-align: center; }
   margin-top: 20px;
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;       /* Allows buttons to move to the next line on small screens */
   justify-content: center;
 }
 
